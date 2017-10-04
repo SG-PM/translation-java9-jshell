@@ -35,7 +35,7 @@ x ==> 45
 > __주의__
 > 완료된 스니펫이 끝에 세미콜론이 없다면 문(statement) 종료를 표시하는 세미콜론(;)은 자동으로 추가됩니다.
 
-
+이름이 지정된 변수가 없는 식(expression)이 입력된다면, 다음에 값을 참조하는 목적으로 스크래치 변수[^1]가 생성된다.
 When an expression is entered that doesn't have a named variable, a scratch variable is created so that the value can be referenced later. The following example shows scratch values for an expression and for the results of a method. The example also shows the continuation prompt (...>) that is used when a snippet requires more than one line of input to complete:
 
 

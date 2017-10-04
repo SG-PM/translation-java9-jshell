@@ -25,5 +25,4 @@ x ==> 45
 ```
 
 > __주의__
-> 완료된 스니펫이 끝에 세미콜론이 
-Terminating semicolons are automatically added to the end of a complete snippet if not entered.
+> 완료된 스니펫이 끝에 세미콜론이 없다면 문(statement) 종료를 표시하는 세미콜론(;)은 자동으로 추가됩니다.

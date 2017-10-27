@@ -184,21 +184,21 @@ jshell> /list
 
 ## 스니펫 텝 자동 완성
 
-When you enter snippets, use the Tab key to automatically complete the item. If the item can’t be determined from what was entered, then possible options are provided.
+스니펫을 입력할 때, 텝 키를 사용하여 코드 자동 완성을 할 수 있습니다. 현재까지 입력으로 코드를 결정할 수 없다면, 가능한 옵션을 제공합니다.
 
-For example, if you entered the volume method from Forward References, then you can enter the first few letters of the method name, and then press the Tab key to complete the entry:
+예를 들어서 앞에서 volume 메서드를 입력한 상태에서, 메서드 명의 첫번째 몇개를 입력한 후 텝 키를 입력합니다.
 
 ```
 jshell> vol<Tab>
 ```
 
-The input changes to the following:
+탭 키를 입력하면 입력값이 다음과 같이 변경됩니다.
 
 ```
 jshell> volume(
 ```
 
-If the item can be completed in more than one way, the set of possibilities is displayed:
+자동 완성 기능을 사용할 때 현재 입력한 값을 기준으로 한 개 이상의 경우의 수를 갖는다면, 가능한 모든 값을 출력합니다.
 
 ```
 jshell> System.c<Tab>
@@ -207,9 +207,10 @@ class                 clearProperty(        console()             currentTimeMil
 jshell> System.c
 ```
 
-Any common characters are added to what you entered, and the cursor is placed at the end of the input so that more can be entered.
+입력 한 내용에 공통 문자가 추가되고 커서는 입력 끝 부분으로 이동합니다. 아이템을 완성하기 위해 추가 문자를 입력 할 수 있습니다.
 
-When you are at a method call's open parenthesis, pressing Tab shows completion possibilities with the parameter types:
+메소드의 열린 괄호에서 텝 키를 입력하면 매개 변수 유형으로 완료 가능한 형태를 출력합니다.
+
 
 ```
 jshell> "hello".startsWith(<Tab>
@@ -222,7 +223,7 @@ boolean String.startsWith(String prefix)
 jshell> "hello".startsWith(
 ```
 
-Pressing Tab again shows a plain-text version of the documentation for the first method.
+텝 키를 다시 입력하면 첫번째 메서드의 텍스트 버전 문서가 출력됩니다.
 
 ```
 jshell> "hello".startsWith(<Tab>

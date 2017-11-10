@@ -1,0 +1,16 @@
+total 80
+drwxr-xr-x  15 taewan  staff    510 11 10 15:37 .
+drwxr-xr-x  46 taewan  staff   1564 11 10 15:37 ..
+drwxr-xr-x  13 taewan  staff    442 11 10 15:37 .git
+-rw-r--r--   1 taewan  staff      0 11 10 15:37 0_notices.md
+-rw-r--r--   1 taewan  staff      0 11 10 15:37 0_preface
+-rw-r--r--   1 taewan  staff   3192 11 10 15:37 1_intorduction_to_jshell.md
+-rw-r--r--   1 taewan  staff  13337 11 10 15:37 2_snippets.md
+-rw-r--r--   1 taewan  staff   3111 11 10 15:37 3_commends.md
+-rw-r--r--   1 taewan  staff      0 11 10 15:37 4_editing.md
+-rw-r--r--   1 taewan  staff      0 11 10 15:37 5_external_code.md
+-rw-r--r--   1 taewan  staff      0 11 10 15:37 6_feedback_modes.md
+-rw-r--r--   1 taewan  staff      0 11 10 15:37 7_scripts.md
+-rw-r--r--   1 taewan  staff  11357 11 10 15:37 LICENSE
+-rw-r--r--   1 taewan  staff    197 11 10 15:37 README.md
+-rw-r--r--   1 taewan  staff      0 11 10 15:37 log
